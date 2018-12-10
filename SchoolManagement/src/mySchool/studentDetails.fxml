@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="mySchool.StudentDetailsControler" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="444.0" prefWidth="934.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="Student No" />
+          <TableColumn prefWidth="75.0" text="First Name" />
+          <TableColumn prefWidth="110.0" text="Sur Name " />
+
+            <TableColumn prefWidth="75.0" text="S Name" />
+            <TableColumn prefWidth="75.0" text="Adm No" />
+            <TableColumn prefWidth="75.0" text="DOB" />
+            <TableColumn prefWidth="75.0" text="DOR" />
+            <TableColumn prefWidth="75.0" text="Class " />
+            <TableColumn prefWidth="75.0" text="Gender" />
+            <TableColumn prefWidth="75.0" text="RA" />
+            <TableColumn prefWidth="75.0" text="Parent" />
+            <TableColumn prefWidth="75.0" text="TEL  " />
+
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
